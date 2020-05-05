@@ -1,5 +1,6 @@
 library(tidyverse)
 library(pdftools)
+library(ggplot2)
 library(dslabs) #Package by Harvard Data Science containing datasets including RD Mortality Report pdf
 options(digits = 3)    # report 3 significant digitslibrary(tidyverse)
 
@@ -46,3 +47,10 @@ tab <- data.frame(s_mat)%>%
 tab <- tab %>% gather(year, deaths, -day) %>%
   mutate(deaths = as.numeric(deaths))
 
+tab %>% filter(year < 2018) %>% 
+  ggplot(aes(day, deaths, color = year)) +
+  geom_line() +
+  geom_vline(xintercept = 20) +
+  geom_point()+
+  xlab("Day of September")+
+  ylab("Deaths per day in years 2015,2016 & 2017")
