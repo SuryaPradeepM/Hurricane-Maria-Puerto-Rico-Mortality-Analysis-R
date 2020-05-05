@@ -47,6 +47,7 @@ tab <- data.frame(s_mat)%>%
 tab <- tab %>% gather(year, deaths, -day) %>%
   mutate(deaths = as.numeric(deaths))
 
+#plot deaths per day in the month of september for three years 2015,2016 & 2017
 tab %>% filter(year < 2018) %>% 
   ggplot(aes(day, deaths, color = year)) +
   geom_line() +

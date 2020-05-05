@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4190024555",
+    "hash" : "0",
     "id" : "A18EBF02",
-    "lastKnownWriteTime" : 1588690972,
-    "last_content_update" : 1588690972383,
+    "lastKnownWriteTime" : 1588691783,
+    "last_content_update" : 1588691783973,
     "path" : "D:/Data_Science/Rproj/Hurricane María Puerto Rico Mortality Analysis-R/Wrangle.R",
     "project_path" : "Wrangle.R",
     "properties" : {
-        "cursorPosition" : "56,0",
+        "cursorPosition" : "49,79",
         "scrollLine" : "28"
     },
     "read_only" : false,
