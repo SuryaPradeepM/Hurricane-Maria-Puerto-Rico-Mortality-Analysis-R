@@ -7,7 +7,7 @@ options(digits = 3)    # report 3 significant digitslibrary(tidyverse)
 #Stores the path to the report file in the dslabas/extdata directory,Alternatively change it as required.
 fn <- system.file("extdata", "RD-Mortality-Report_2015-18-180531.pdf", package="dslabs")
 
-system("cmd.exe", input = paste("start", fn))
+#system("cmd.exe", input = paste("start", fn))
 
 text <- pdf_text(fn)
 

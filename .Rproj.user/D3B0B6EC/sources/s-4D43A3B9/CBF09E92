@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589273314227.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CBF09E92",
+    "lastKnownWriteTime" : 1589274980,
+    "last_content_update" : 1589274980641,
+    "path" : "D:/Data_Science/Rproj/Hurricane María Puerto Rico Mortality Analysis-R/Expected_deaths.R",
+    "project_path" : "Expected_deaths.R",
+    "properties" : {
+        "cursorPosition" : "29,48",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
